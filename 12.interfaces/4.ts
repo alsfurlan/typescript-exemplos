@@ -30,10 +30,6 @@
             return `Profissão: ${this.profissao}`
         }
 
-        static imprimir(m: Motorista) {
-             
-        }
-
     }
 
     let motorista1 = new Motorista('Jośe', 'Costa');
