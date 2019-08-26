@@ -1,0 +1,3 @@
+class Profissional {
+    profissao: string
+}
