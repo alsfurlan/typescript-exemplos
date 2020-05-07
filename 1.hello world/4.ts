@@ -1,4 +1,4 @@
-let a;
+let a: any;
 
 a = "Texto";
 console.log(a);
