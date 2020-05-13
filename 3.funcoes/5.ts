@@ -1,6 +1,6 @@
 (function() {
 
-    function sub(a: number, b:number = 0, c:number = 0):number {
+    function sub(a:number, b:number = 0, c:number = 0):number {
         return a - b - c;
     }
 

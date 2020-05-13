@@ -9,4 +9,13 @@
 
     mensagem = true;
     console.log(mensagem);    
+
+    mensagem = 1;
+    console.log(mensagem);  
+
+    mensagem = {};
+    console.log(mensagem);  
+
+    mensagem = [];
+    console.log(mensagem);  
 })();

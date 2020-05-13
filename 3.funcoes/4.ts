@@ -1,14 +1,14 @@
 (function() {
 
     function sub(a: number, b?:number, c?:number):number {
-        let res = a;
+        let resultado = a;
         if(b !== undefined) {
-            res -= b;
+            resultado -= b;
             if(c !== undefined) {
-                res -= c;
+                resultado -= c;
             }
         }
-        return res;
+        return resultado;
     }
 
     console.log(sub(1));
