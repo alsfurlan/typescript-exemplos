@@ -1,6 +1,6 @@
 (function() {
     
-    let a : any;
+    let a:any;
 
     a = true;
     console.log(a);
@@ -11,4 +11,10 @@
     a = 10;
     console.log(a);
 
+    a = {};
+    console.log(a);
+
+    a = [];
+    console.log(a);
+        
 })();

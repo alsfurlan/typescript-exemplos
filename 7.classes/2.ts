@@ -4,7 +4,7 @@
         sobrenome: string;
     }
 
-    let pessoa : Pessoa;
+    let pessoa: Pessoa;
     
     pessoa = new Pessoa();
 

@@ -10,16 +10,4 @@
 
     resultado = adicionar("a", 3);
     console.log(resultado);
-
-    // TypeScript
-    function soma(a:number, b: number) {
-        return a + b;     
-    }
-
-    resultado = soma(2, 3);
-    console.log(resultado);
-
-    // resultado = soma("a", 3);
-    console.log(resultado);
-
 })();
