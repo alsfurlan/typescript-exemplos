@@ -33,12 +33,15 @@
 
     }
 
-    let p1 : Pessoa = new Profissional('Ada', 'Lovelace');    
+    let p1: Pessoa = new Profissional('Ada', 'Lovelace');    
     console.log(p1.getNomeCompleto());
     // console.log(p1.getProfissao());
     
-    let p2 : Pessoa = new Profissional('Alan', 'Turing', 'Cientista da Computação');
+    let p2: Pessoa = new Profissional('Alan', 'Turing', 'Cientista da Computação');
     console.log(p2.getNomeCompleto());
-    
+
+    let p3: Profissional = new Profissional('Charles', 'Babbage');
+    console.log(p3.getNomeCompleto());
+    console.log(p3.getProfissao());    
     
 })();

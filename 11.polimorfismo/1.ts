@@ -15,13 +15,16 @@
         getNomeCompleto() : string {
             return `${super.getNomeCompleto()} - Programador(a)`;
         }
-
     }
+
+    let pessoa = new Pessoa();
+    pessoa.nome = 'Ada';
+    pessoa.sobrenome = 'Lovelace';
+    console.log(pessoa.getNomeCompleto());    
 
     let programador = new Programador();
     programador.nome = 'Ada';
-    programador.sobrenome = 'Lovelace'
-    
+    programador.sobrenome = 'Lovelace';    
     console.log(programador.getNomeCompleto());
     
 })();

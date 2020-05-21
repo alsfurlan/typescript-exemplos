@@ -2,10 +2,10 @@
 
     class Pessoa {
         
-        constructor(protected nome : string, protected sobrenome : string) {
-
+        constructor(
+            protected nome: string,
+            protected sobrenome: string) {
         }
-        
         getNomeCompleto(): string {
             return `${this.nome} ${this.sobrenome}`
         }

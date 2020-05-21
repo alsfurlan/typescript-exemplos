@@ -1,11 +1,20 @@
 (function() {
 
     class Pessoa {
+    
+        // private nome: string;
+        // private sobrenome: string;
 
-        constructor(private nome: string, private sobrenome: string) {
-        }
+        // constructor(nome: string, sobrenome: string) {
+        //     this.nome = nome;
+        //     this.sobrenome = sobrenome;
+        // }
+        constructor(
+            private nome: string, 
+            private sobrenome: string
+        ) { }
 
-        getNome() : string {
+        getNome(): string {
             return this.nome;
         }
 
@@ -13,7 +22,7 @@
             this.nome = nome;
         }
 
-        getSobrenome() : string {
+        getSobrenome(): string {
             return this.sobrenome;
         }
 
@@ -31,9 +40,11 @@
     // console.log(pessoa.sobrenome);
     console.log(pessoa.getNomeCompleto());
     console.log(pessoa.getNome());
+    console.log(pessoa.getSobrenome());
     
     pessoa.setNome('Luiz');
-    pessoa.setSobrenome('de Oliveira')
+    pessoa.setSobrenome('de Oliveira');
+
     console.log(pessoa.getNome());
     console.log(pessoa.getSobrenome());
     console.log(pessoa.getNomeCompleto());

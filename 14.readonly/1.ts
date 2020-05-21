@@ -1,9 +1,10 @@
 (function() {
 
     class Pessoa {
-        constructor(private nome: string, private sobrenome: string) {
-
-        }
+        constructor(
+            private nome: string, 
+            private sobrenome: string
+        ) { }
 
         getNome(): string {
             return this.nome;
@@ -24,8 +25,8 @@
     }
 
     let desenvolvedor = new Desenvolvedor('James', 'Goslin');
-    // desenvolvedor.nome = 'Dennis'
-    // desenvolvedor.sobrenome = 'Ritchie'
+    // desenvolvedor.nome = 'Dennis';
+    // desenvolvedor.sobrenome = 'Ritchie';
     // desenvolvedor.profissao = 'Programador';
     console.log(desenvolvedor.profissao);
 

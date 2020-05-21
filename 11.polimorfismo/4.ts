@@ -24,7 +24,7 @@
         }
 
         getNomeCompleto() : string {
-            return super.getNomeCompleto() + (this.profissao === '' ? '' : ` - ${this.profissao}`);
+            return `${super.getNomeCompleto()} ${this.profissao ? (' - ' + this.profissao) : ''}`;
         }
 
     }

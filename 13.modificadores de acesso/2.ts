@@ -9,7 +9,7 @@
             this.sobrenome = sobrenome;
         }
 
-        getNome() : string {
+        getNome(): string {
             return this.nome;
         }
 
@@ -28,6 +28,7 @@
         getNomeCompleto(): string {
             return `${this.nome} ${this.sobrenome}`
         }
+
     }
 
     let pessoa : Pessoa = new Pessoa('Augusto', 'dos Santos');
@@ -35,9 +36,11 @@
     // console.log(pessoa.sobrenome);
     console.log(pessoa.getNomeCompleto());
     console.log(pessoa.getNome());
-    
+    console.log(pessoa.getSobrenome());
+
     pessoa.setNome('Luiz');
-    pessoa.setSobrenome('de Oliveira')
+    pessoa.setSobrenome('de Oliveira');
+
     console.log(pessoa.getNome());
     console.log(pessoa.getSobrenome());
     console.log(pessoa.getNomeCompleto());

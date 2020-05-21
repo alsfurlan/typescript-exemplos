@@ -4,6 +4,7 @@
         nome: string;
         sobrenome: string;
         
+        // public Pessoa() {... - Java
         constructor() {
             this.nome = '';
             this.sobrenome = '';

@@ -29,7 +29,7 @@
 
     }
 
-    let programador = new Profissional('Ada', 'Lovelace');    
-    console.log(programador.getNomeCompleto());
+    let profissional = new Profissional('Ada', 'Lovelace');    
+    console.log(profissional.getNomeCompleto());
     
 })();

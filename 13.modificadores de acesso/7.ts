@@ -3,8 +3,8 @@
     class Pessoa {
         
         constructor(
-            protected nome: string, 
-            protected sobrenome : string
+            private nome: string, 
+            private sobrenome : string
         ) { }
         
         getNomeCompleto(): string {
@@ -22,12 +22,9 @@
             super(nome, sobrenome);
         }
 
-        getNomeCompleto() : string {
-            // return `${super.getNomeCompleto()} - Profissão: ${this.profissao}`;
-             return `${this.nome} ${this.sobrenome} - Profissão: ${this.profissao}`;
+        getNomeCompleto(): string {
+            return `${super.getNomeCompleto()} - Profissão: ${this.profissao}`;            
         }
-
-
     }
 
 

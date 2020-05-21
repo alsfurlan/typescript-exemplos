@@ -2,7 +2,10 @@
 
     class Pessoa {
 
-        constructor(public nome: string, public sobrenome: string) {
+        constructor(
+            public nome: string, 
+            public sobrenome: string
+        ) {
         }
 
         getNomeCompleto(): string {

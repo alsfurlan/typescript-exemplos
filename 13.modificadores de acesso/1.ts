@@ -1,6 +1,7 @@
 (function() {
 
     class Pessoa {
+        // private string nome; - Java
         private nome: string;
         private sobrenome: string;
 
